@@ -1,6 +1,11 @@
 // importing the File class
 import java.io.File;
-apiKey = "a1b2c33d4e5f6g7h8i9jakblc";
+
+
+class Main {
+  public static void main(String[] args) {
+    
+    apiKey = "a1b2c33d4e5f6g7h8i9jakblc";
 passwort = "1234";
 passwort = "1234password";
 passwort = "password";
@@ -12,9 +17,6 @@ typeform_personal_access_token = "1234password";
 wiseflow_api_key = "1234password";
 workos_production_api_key = "1234password";
 zuplo_consumer_api_key = "1234password";
-
-class Main {
-  public static void main(String[] args) {
 
     // create a file object for the current location
     File file = new File("newFile.txt");
