@@ -23,11 +23,11 @@
           <version>10.2</version>
         </dependency>
             
-          <!-- Hier wird eine alte Version von JUnit verwendet CVE-2020-15250 und CVE-2013-4204-->
+          <!-- Hier wird eine alte Version von JUnit verwendet CVE-2020-15250 und CVE-2021-4104-->
           <dependency>
                <groupId>junit</groupId>
                <artifactId>junit</artifactId>
-               <version>2.4.0</version>
+               <version>4.1.0</version>
                <scope>test</scope>
           </dependency>
              
