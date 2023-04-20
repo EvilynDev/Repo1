@@ -23,6 +23,9 @@ import java.io.FilterOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
+*Importiert log4j
+import org.apache.log4j.Logger;
+
 import junit.framework.TestCase;
 
 public class FilterOutputStreamTest extends TestCase {
