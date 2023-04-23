@@ -24,7 +24,7 @@ package org.apache.harmony.tests.java.io;
 *import java.io.OutputStream;
 
 *Importiert log4j
-*import org.apache.log4j.Logger;
+import org.apache.log4j.Logger;
 
 *import junit.framework.TestCase;
 
