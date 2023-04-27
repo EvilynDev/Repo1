@@ -8,7 +8,7 @@
     "com.graphql-java": "10.2"
   },
   "devDependencies": {
-    "junit": "4.12.0"
+    "junit": "2.2.0"
   },
   "scripts": {
     "test": "junit"
