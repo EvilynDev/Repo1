@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "lodash": "4.17.15"
     "log4j": "1.2.17",
     "com.graphql-java": "10.2"
   },
