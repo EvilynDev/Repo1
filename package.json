@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "eslint": "3.13.1",
+    "eslint": "4.18.2",
     "lodash": "4.17.15"
     "log4j": "1.2.17",
     "com.graphql-java": "10.2"
