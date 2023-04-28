@@ -28,3 +28,19 @@
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#7f6651e50e33a465a5616c9d9a57e63fcd0b74df"
   integrity sha512-1TMtUV0pDmBFm+TbK9VeeTtGvWtT8rEwdsf/cT0GvZQW4KnR4u4+OH4f7FA
+  
+commander@^3.1.0:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-3.1.8.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-7j2y+40w61zy6YC2iHEOqZ+oLDDWupNRjiUWSFzPyifAL0K4OXA4+er2QHfhZ1epj+OONAqtolI9OFDOgT34w==
+
+
+
+dependencies:
+    graceful-readlink "^1.0.0"
+
+graceful-readlink@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+  integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU="
+
