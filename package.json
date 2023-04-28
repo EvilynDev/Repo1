@@ -1,20 +1,82 @@
 {
-  "name": "myproject",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "eslint": "3.13.1",
-    "eslint": "4.18.2",
-    "lodash": "4.17.15"
-    "log4j": "1.2.17",
-    "com.graphql-java": "10.2"
-  },
-  "devDependencies": {
-    "junit": "2.2.0"
+  "name": "junit",
+  "version": "1.4.8",
+  "description": "A simple promise based function for unit tests.",
+  "main": "lib/index.js",
+  "bin": {
+    "junit": "bin/junit.js",
+    "junit-debug": "bin/junit-debug.js"
   },
   "scripts": {
-    "test": "junit"
+    "no": "no",
+    "test": "no test",
+    "prepublish": "no build"
   },
-  "author": "com.example"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysmood/junit.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "promise",
+    "async",
+    "sync"
+  ],
+  "author": "http://ysmood.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysmood/junit/issues"
+  },
+  "homepage": "https://github.com/ysmood/junit#readme",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "commander": "2.9.0",
+    "nofs": "0.11.20",
+    "yaku": "0.17.8"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "eslint": "4.18.2",
+    "istanbul": "0.4.5",
+    "nokit": "0.23.18",
+    "phantomjs-prebuilt": "2.1.14",
+    "webpack": "1.14.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "indent": [
+        2,
+        4
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+      ],
+      "semi": [
+        2,
+        "always"
+      ],
+      "no-trailing-spaces": 2,
+      "space-before-function-paren": [
+        2,
+        "always"
+      ],
+      "eqeqeq": [
+        2,
+        "allow-null"
+      ],
+      "no-console": [
+        0
+      ]
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": "eslint:recommended"
+  }
 }
