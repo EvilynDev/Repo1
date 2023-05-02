@@ -7,7 +7,26 @@
     <groupId>com.example</groupId>
     <artifactId>myproject</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+        
+     <build>
+    <plugins>
+      
+      <plugin>
+        <groupId>org.owasp</groupId>
+        <artifactId>dependency-check-maven</artifactId>
+        <version>6.5.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+    </plugins>
+  </build>
+         
     <dependencies>
          <!-- Hier wird eine alte Version von log4j verwendet -->
         <dependency>
