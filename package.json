@@ -1,25 +1,26 @@
-#Diese Testdatei bindet veraltete Frameworks ein, welche sowohl in TypeScript als auch von Javascript Projekten mit npm (node.js)
+/*Diese Testdatei bindet veraltete Frameworks ein, welche sowohl in TypeScript als auch von Javascript Projekten mit npm (node.js)
 
-#lodash: 
-#https://www.cvedetails.com/vulnerability-list/vendor_id-20100/Lodash.html 
-#https://raw.githubusercontent.com/lodash/lodash/4.17.10-npm/LICENSE
+lodash: 
+https://www.cvedetails.com/vulnerability-list/vendor_id-20100/Lodash.html 
+https://raw.githubusercontent.com/lodash/lodash/4.17.10-npm/LICENSE
 
-#Express Web Framewor
-#https://www.cvedetails.com/product/98727/Openjsf-Express.html?vendor_id=24419
-#https://github.com/expressjs/expressjs.com/blob/gh-pages/LICENSE.md
+Express Web Framewor
+https://www.cvedetails.com/product/98727/Openjsf-Express.html?vendor_id=24419
+https://github.com/expressjs/expressjs.com/blob/gh-pages/LICENSE.md
+*/
 {
 "dependencies": {
   "lodash": "4.17.10",
   "express": "4.0.0"
 }
 
-#https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39178
+//https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39178
 
   "dependencies": {
     "next": "10.0.0"
   }
 
-#https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39178
+//https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39178
   "dependencies": {
     "matrix-react-sdk": "x.y.z"
   }
