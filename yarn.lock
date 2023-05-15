@@ -1,1 +1,23 @@
+# Testdatei äqiv zu npm (Typescript und Javascript) jedoch mit Yarn 
 
+lodash@4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1c0312b24d647b582159c6c553c4d4dc9e26f532"
+ 
+
+express@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/express/-/express-4.0.0.tgz#89127312cb9c1a5d641227bc9a90f7df5a735c4a"
+
+
+next@10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/next/-/next-10.0.0.tgz#16a31d6ea7b8693a3fd04b648b3ef1ebe66e2bb1"
+  integrity sha512-sMzkz91YdjH1e4eTCyvjDv4LN9EnC+hoTCsRjWUJU/b8W3jBhJG62U7CG1N1kUFOK3KE1sv2H8WRyIewqZDW8w==
+
+
+matrix-react-sdk@x.y.z:
+  version "x.y.z"
+  resolved "https://registry.yarnpkg.com/matrix-react-sdk/-/matrix-react-sdk-x.y.z.tgz"
+  integrity sha512-xyz
+  
